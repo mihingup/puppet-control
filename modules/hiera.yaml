@@ -1,0 +1,10 @@
+---
+:backends:
+  - yaml
+
+:hierarchy:
+    -"%{::fqdn}"
+
+:yaml:
+    :datadir: '/etc/puppet/environments/DEV/hieradata/'
+

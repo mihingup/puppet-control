@@ -1,0 +1,5 @@
+---
+httpd::owner: 'apache'
+httpd::group: 'apache'
+httpd::servce_state: running
+httpd::listen_port: 80
